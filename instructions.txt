@@ -1,0 +1,7 @@
+args in tasks
+
+"-I$(brew --prefix opencv)/include/opencv4",
+"-L$(brew --prefix opencv)/lib",
+"-lopencv_core",
+"-lopencv_imgcodecs",
+"-lopencv_highgui",
