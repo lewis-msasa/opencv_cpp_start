@@ -5,3 +5,9 @@ args in tasks
 "-lopencv_core",
 "-lopencv_imgcodecs",
 "-lopencv_highgui",
+
+
+
+g++ example_video.c
+pp -o example_video -std=c++17 `pkg-config --cflags --libs opencv
+4`
